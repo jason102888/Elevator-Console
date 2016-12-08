@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Park_A_Lot
+namespace ParkALot
 {
-    public class Reservations : parkALot
+    public class Reservations : ParkALot
     {
         //jghjihb
     }

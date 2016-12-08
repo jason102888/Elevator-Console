@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Elevator_Console
+namespace ParkALot
 {
     public partial class Walk_In_Digital_Display : Form
     {

@@ -32,3 +32,16 @@ C:\Users\monkey\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\Elevato
 C:\Users\Jeff\Source\Repos\Elevator-Console\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.exe.config
 C:\Users\Jeff\Source\Repos\Elevator-Console\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.exe
 C:\Users\Jeff\Source\Repos\Elevator-Console\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.pdb
+C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.exe.config
+C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.exe
+C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.pdb
+C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.exe
+C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.pdb
+C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.csprojResolveAssemblyReference.cache
+C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.csproj.GenerateResource.Cache
+C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Properties.Resources.resources
+C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Form1.resources
+C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Garage_Opporator.resources
+C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Registration.resources
+C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Reservation_App.resources
+C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Walk_In_Digital_Display.resources
