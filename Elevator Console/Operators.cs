@@ -5,7 +5,11 @@ using System.Text;
 
 namespace ParkALot
 {
-    public class Operators : ParkALot
+    public static class Operators
     {
+        public static string foo()
+        {
+            return String.Empty;
+        }
     }
 }

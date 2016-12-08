@@ -10,9 +10,10 @@ using System.Windows.Forms;
 
 namespace ParkALot
 {
-    public partial class Garage_Opporator : Form
+    public partial class Garage_Operator : Form
     {
-        public Garage_Opporator()
+
+        public Garage_Operator()
         {
             InitializeComponent();
         }
@@ -20,6 +21,11 @@ namespace ParkALot
         private void Garage_Opporator_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Operators.foo();
         }
     }
 }

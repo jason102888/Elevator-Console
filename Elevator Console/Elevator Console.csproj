@@ -55,11 +55,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Garage Opporator.cs">
+    <Compile Include="GarageOperator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Garage Opporator.Designer.cs">
-      <DependentUpon>Garage Opporator.cs</DependentUpon>
+    <Compile Include="GarageOperator.Designer.cs">
+      <DependentUpon>GarageOperator.cs</DependentUpon>
     </Compile>
     <Compile Include="Membership.cs" />
     <Compile Include="Operators.cs" />
@@ -79,17 +79,17 @@
       <DependentUpon>Reservation App.cs</DependentUpon>
     </Compile>
     <Compile Include="Reservations.cs" />
-    <Compile Include="Walk-In Digital Display.cs">
+    <Compile Include="WalkInDigitalDisplay.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Walk-In Digital Display.Designer.cs">
-      <DependentUpon>Walk-In Digital Display.cs</DependentUpon>
+    <Compile Include="WalkInDigitalDisplay.Designer.cs">
+      <DependentUpon>WalkInDigitalDisplay.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Garage Opporator.resx">
-      <DependentUpon>Garage Opporator.cs</DependentUpon>
+    <EmbeddedResource Include="GarageOperator.resx">
+      <DependentUpon>GarageOperator.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -107,8 +107,8 @@
     <EmbeddedResource Include="Reservation App.resx">
       <DependentUpon>Reservation App.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Walk-In Digital Display.resx">
-      <DependentUpon>Walk-In Digital Display.cs</DependentUpon>
+    <EmbeddedResource Include="WalkInDigitalDisplay.resx">
+      <DependentUpon>WalkInDigitalDisplay.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">

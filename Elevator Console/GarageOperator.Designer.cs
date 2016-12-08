@@ -1,6 +1,6 @@
 ﻿namespace ParkALot
 {
-    partial class Garage_Opporator
+    partial class Garage_Operator
     {
         /// <summary>
         /// Required designer variable.
@@ -83,6 +83,7 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "Look Up";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox2
             // 
@@ -136,7 +137,7 @@
             this.button5.Text = "Full Spaces";
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // Garage_Opporator
+            // Garage_Operator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -152,8 +153,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Garage_Opporator";
-            this.Text = "Garage_Opporator";
+            this.Name = "Garage_Operator";
+            this.Text = "Garage_Operator";
             this.Load += new System.EventHandler(this.Garage_Opporator_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
