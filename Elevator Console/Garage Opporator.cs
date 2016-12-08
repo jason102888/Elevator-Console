@@ -16,5 +16,10 @@ namespace Elevator_Console
         {
             InitializeComponent();
         }
+
+        private void Garage_Opporator_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
