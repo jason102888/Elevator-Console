@@ -45,3 +45,6 @@ C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Reg
 C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Reservation_App.resources
 C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Walk_In_Digital_Display.resources
 C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Garage_Operator.resources
+C:\Users\Trevor\Source\Repos\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.exe.config
+C:\Users\Trevor\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.exe
+C:\Users\Trevor\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.pdb

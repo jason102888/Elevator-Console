@@ -78,6 +78,7 @@
     <Compile Include="Reservation App.Designer.cs">
       <DependentUpon>Reservation App.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReservationNew.cs" />
     <Compile Include="Reservations.cs" />
     <Compile Include="WalkInDigitalDisplay.cs">
       <SubType>Form</SubType>
