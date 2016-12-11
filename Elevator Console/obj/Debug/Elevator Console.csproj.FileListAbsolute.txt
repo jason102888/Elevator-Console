@@ -48,3 +48,6 @@ C:\Users\Jeff\Workspace\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Gar
 C:\Users\Trevor\Source\Repos\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.exe.config
 C:\Users\Trevor\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.exe
 C:\Users\Trevor\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.pdb
+F:\COSC-2330\Projects\Week8\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.exe.config
+F:\COSC-2330\Projects\Week8\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.exe
+F:\COSC-2330\Projects\Week8\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.pdb
