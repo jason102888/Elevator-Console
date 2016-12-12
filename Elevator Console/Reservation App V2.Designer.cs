@@ -87,9 +87,9 @@
             this.chkBorrowedOrRented.AutoSize = true;
             this.chkBorrowedOrRented.Location = new System.Drawing.Point(209, 359);
             this.chkBorrowedOrRented.Name = "chkBorrowedOrRented";
-            this.chkBorrowedOrRented.Size = new System.Drawing.Size(115, 17);
+            this.chkBorrowedOrRented.Size = new System.Drawing.Size(121, 17);
             this.chkBorrowedOrRented.TabIndex = 41;
-            this.chkBorrowedOrRented.Text = "borrowed or rented";
+            this.chkBorrowedOrRented.Text = "Borrowed or Rented";
             this.chkBorrowedOrRented.UseVisualStyleBackColor = true;
             this.chkBorrowedOrRented.CheckedChanged += new System.EventHandler(this.chkBorrowedOrRented_CheckedChanged);
             // 
@@ -109,10 +109,10 @@
             this.radRes2.AutoSize = true;
             this.radRes2.Location = new System.Drawing.Point(7, 44);
             this.radRes2.Name = "radRes2";
-            this.radRes2.Size = new System.Drawing.Size(85, 17);
+            this.radRes2.Size = new System.Drawing.Size(91, 17);
             this.radRes2.TabIndex = 1;
             this.radRes2.TabStop = true;
-            this.radRes2.Text = "radioButton2";
+            this.radRes2.Text = "Reservation 2";
             this.radRes2.UseVisualStyleBackColor = true;
             this.radRes2.CheckedChanged += new System.EventHandler(this.radRes2_CheckedChanged);
             // 
@@ -150,10 +150,10 @@
             this.radRes1.AutoSize = true;
             this.radRes1.Location = new System.Drawing.Point(7, 20);
             this.radRes1.Name = "radRes1";
-            this.radRes1.Size = new System.Drawing.Size(85, 17);
+            this.radRes1.Size = new System.Drawing.Size(91, 17);
             this.radRes1.TabIndex = 0;
             this.radRes1.TabStop = true;
-            this.radRes1.Text = "radioButton1";
+            this.radRes1.Text = "Reservation 1";
             this.radRes1.UseVisualStyleBackColor = true;
             this.radRes1.CheckedChanged += new System.EventHandler(this.radRes1_CheckedChanged);
             // 
@@ -174,10 +174,10 @@
             this.radRes3.AutoSize = true;
             this.radRes3.Location = new System.Drawing.Point(7, 68);
             this.radRes3.Name = "radRes3";
-            this.radRes3.Size = new System.Drawing.Size(85, 17);
+            this.radRes3.Size = new System.Drawing.Size(91, 17);
             this.radRes3.TabIndex = 2;
             this.radRes3.TabStop = true;
-            this.radRes3.Text = "radioButton3";
+            this.radRes3.Text = "Reservation 3";
             this.radRes3.UseVisualStyleBackColor = true;
             this.radRes3.CheckedChanged += new System.EventHandler(this.radRes3_CheckedChanged);
             // 
