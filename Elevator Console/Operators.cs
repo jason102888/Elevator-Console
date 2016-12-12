@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Park_A_Lot
+namespace ParkALot
 {
-    public class Operators : parkALot
+    public static class Operators
     {
+        public static string foo()
+        {
+            return String.Empty;
+        }
     }
 }

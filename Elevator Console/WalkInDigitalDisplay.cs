@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace ParkALot
 {
-    public partial class Registration : Form
+    public partial class Walk_In_Digital_Display : Form
     {
-        public Registration()
+        public Walk_In_Digital_Display()
         {
             InitializeComponent();
+        }
+
+        private void Walk_In_Digital_Display_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

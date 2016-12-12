@@ -8,23 +8,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Elevator_Console
+namespace ParkALot
 {
-    public partial class Walk_In_Digital_Display : Form
+    public partial class Garage_Operator : Form
     {
-        public Walk_In_Digital_Display()
+
+        public Garage_Operator()
         {
             InitializeComponent();
         }
 
-        private void Walk_In_Digital_Display_Load(object sender, EventArgs e)
+        private void Garage_Opporator_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            Operators.foo();
         }
     }
 }

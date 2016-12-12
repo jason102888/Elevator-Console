@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Park_A_Lot
+namespace ParkALot
 {
-    public class parkALot
+    public class ParkALot
     {
 
 
