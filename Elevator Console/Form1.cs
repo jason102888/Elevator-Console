@@ -27,5 +27,10 @@ namespace ParkALot
             Reservation_App res = new Reservation_App();
             res.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
