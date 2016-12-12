@@ -61,3 +61,12 @@ C:\Users\monkey\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\ParkALo
 C:\Users\monkey\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.csproj.GenerateResource.Cache
 C:\Users\monkey\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Reservatuin_App_V2.resources
 C:\Users\monkey\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Reservation_App_V2.resources
+F:\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.exe.config
+F:\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.exe
+F:\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.pdb
+C:\Users\Jeff\Source\Repo\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.exe.config
+C:\Users\Jeff\Source\Repo\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.exe
+C:\Users\Jeff\Source\Repo\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.pdb
+C:\Users\monkey\Documents\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.exe.config
+C:\Users\monkey\Documents\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.exe
+C:\Users\monkey\Documents\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.pdb
