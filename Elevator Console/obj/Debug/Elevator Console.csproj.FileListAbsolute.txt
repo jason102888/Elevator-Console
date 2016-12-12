@@ -67,3 +67,6 @@ F:\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.pdb
 C:\Users\Jeff\Source\Repo\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.exe.config
 C:\Users\Jeff\Source\Repo\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.exe
 C:\Users\Jeff\Source\Repo\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.pdb
+C:\Users\monkey\Documents\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.exe.config
+C:\Users\monkey\Documents\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.exe
+C:\Users\monkey\Documents\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.pdb
