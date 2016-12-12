@@ -96,7 +96,7 @@ namespace ParkALot
             //    int count = 0;
             //    Console.WriteLine(reader[count]);
             //    count++;
-            //}
+           
             List<DataRow> results = Query(queryString);
             foreach (DataRow row in results)
             {
