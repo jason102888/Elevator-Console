@@ -44,10 +44,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtMemberID = new System.Windows.Forms.TextBox();
             this.btnLookUpRes = new System.Windows.Forms.Button();
-            this.btnChangeRes = new System.Windows.Forms.Button();
+            this.btnExtendRes = new System.Windows.Forms.Button();
             this.btnNewRes = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnSubmitNew = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -196,6 +197,8 @@
             this.txtMemberID.Name = "txtMemberID";
             this.txtMemberID.Size = new System.Drawing.Size(100, 20);
             this.txtMemberID.TabIndex = 36;
+            this.txtMemberID.Text = "0";
+            this.txtMemberID.TextChanged += new System.EventHandler(this.txtMemberID_TextChanged);
             // 
             // btnLookUpRes
             // 
@@ -210,18 +213,18 @@
             this.btnLookUpRes.UseVisualStyleBackColor = false;
             this.btnLookUpRes.Click += new System.EventHandler(this.btnLookUpRes_Click);
             // 
-            // btnChangeRes
+            // btnExtendRes
             // 
-            this.btnChangeRes.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btnChangeRes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChangeRes.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnChangeRes.Location = new System.Drawing.Point(120, 134);
-            this.btnChangeRes.Name = "btnChangeRes";
-            this.btnChangeRes.Size = new System.Drawing.Size(132, 23);
-            this.btnChangeRes.TabIndex = 34;
-            this.btnChangeRes.Text = "Change Reservation(s)";
-            this.btnChangeRes.UseVisualStyleBackColor = false;
-            this.btnChangeRes.Click += new System.EventHandler(this.btnChangeRes_Click);
+            this.btnExtendRes.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnExtendRes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExtendRes.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnExtendRes.Location = new System.Drawing.Point(120, 134);
+            this.btnExtendRes.Name = "btnExtendRes";
+            this.btnExtendRes.Size = new System.Drawing.Size(132, 23);
+            this.btnExtendRes.TabIndex = 34;
+            this.btnExtendRes.Text = "Extend Reservation(s)";
+            this.btnExtendRes.UseVisualStyleBackColor = false;
+            this.btnExtendRes.Click += new System.EventHandler(this.btnExtendRes_Click);
             // 
             // btnNewRes
             // 
@@ -258,11 +261,22 @@
             this.label3.TabIndex = 32;
             this.label3.Text = "Time in";
             // 
+            // btnSubmitNew
+            // 
+            this.btnSubmitNew.Location = new System.Drawing.Point(255, 399);
+            this.btnSubmitNew.Name = "btnSubmitNew";
+            this.btnSubmitNew.Size = new System.Drawing.Size(75, 23);
+            this.btnSubmitNew.TabIndex = 46;
+            this.btnSubmitNew.Text = "Submit";
+            this.btnSubmitNew.UseVisualStyleBackColor = true;
+            this.btnSubmitNew.Click += new System.EventHandler(this.btnSubmitNew_Click);
+            // 
             // Reservation_App_V2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(385, 549);
+            this.Controls.Add(this.btnSubmitNew);
             this.Controls.Add(this.dtpTimeOut);
             this.Controls.Add(this.dtpTimeIn);
             this.Controls.Add(this.chkBorrowedOrRented);
@@ -274,7 +288,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtMemberID);
             this.Controls.Add(this.btnLookUpRes);
-            this.Controls.Add(this.btnChangeRes);
+            this.Controls.Add(this.btnExtendRes);
             this.Controls.Add(this.btnNewRes);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
@@ -293,11 +307,9 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DateTimePicker dtpTimeOut;
-        private System.Windows.Forms.DateTimePicker dtpTimeIn;
         private System.Windows.Forms.CheckBox chkBorrowedOrRented;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RadioButton radRes2;
-        private System.Windows.Forms.DateTimePicker dtpDate;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.RadioButton radRes1;
@@ -306,9 +318,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtMemberID;
         private System.Windows.Forms.Button btnLookUpRes;
-        private System.Windows.Forms.Button btnChangeRes;
+        private System.Windows.Forms.Button btnExtendRes;
         private System.Windows.Forms.Button btnNewRes;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
+        public System.Windows.Forms.DateTimePicker dtpTimeIn;
+        public System.Windows.Forms.DateTimePicker dtpDate;
+        private System.Windows.Forms.Button btnSubmitNew;
     }
 }

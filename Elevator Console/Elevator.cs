@@ -130,7 +130,8 @@ namespace ParkALot
             // If an empty spot is found return the spotID and take them to the appropriate floor
             // Then update appointments makeing appoinment = true spotID - the spot they were assigned
             // and duration = the duration they entered in association with the mempershipID they entered
-            else if (SELECT FROM db_owner.members where membershipID = memID)
+            //else if (SELECT FROM db_owner.members where membershipID = memID)
+            else if(true)
             {
                 using (SqlCommand searchForSpot = connection.CreateCommand())
                 {
@@ -151,7 +152,7 @@ namespace ParkALot
                 using (SqlCommand updateAppointment = connection.CreateCommand())
                 {
                     updateAppointment.CommandText = "update db_owner.appointment set appointment = 'true', spotID = spot, duration = duration where membershipID = memID;";
-                    updateAppointment.StatementCompleted += updateAppointment_StatementCompleted;
+                    //updateAppointment.StatementCompleted += updateAppointment_StatementCompleted;
                     updateAppointment.ExecuteNonQuery();
                 }
             }
