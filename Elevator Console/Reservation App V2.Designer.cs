@@ -1,6 +1,6 @@
 ﻿namespace ParkALot
 {
-    partial class Reservatuin_App_V2
+    partial class Reservation_App_V2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reservatuin_App_V2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reservation_App_V2));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dtpTimeOut = new System.Windows.Forms.DateTimePicker();
             this.dtpTimeIn = new System.Windows.Forms.DateTimePicker();
@@ -258,7 +258,7 @@
             this.label3.TabIndex = 32;
             this.label3.Text = "Time in";
             // 
-            // Reservatuin_App_V2
+            // Reservation_App_V2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -279,7 +279,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Reservatuin_App_V2";
+            this.Name = "Reservation_App_V2";
             this.Text = "Reservation_App_V2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ParkALot
 {
-    public partial class Reservatuin_App_V2 : Form
+    public partial class Reservation_App_V2 : Form
     {
-        public Reservatuin_App_V2()
+        public Reservation_App_V2()
         {
             InitializeComponent();
         }
@@ -47,12 +47,12 @@ namespace ParkALot
 
         }
 
-        private void dtpDate_ValueChanged(object sender, EventArgs e)
+        public void dtpDate_ValueChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void dtpTimeIn_ValueChanged(object sender, EventArgs e)
+        public void dtpTimeIn_ValueChanged(object sender, EventArgs e)
         {
 
         }

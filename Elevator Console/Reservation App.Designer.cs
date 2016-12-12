@@ -253,7 +253,7 @@
             this.dtpDate.TabIndex = 30;
             this.dtpDate.ValueChanged += new System.EventHandler(this.dateTimePicker4_ValueChanged);
             // 
-            // Reservation_App
+            // Reservation_App_V2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -275,8 +275,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Reservation_App";
-            this.Text = "Reservation_App";
+            this.Name = "Reservation_App_V2";
+            this.Text = "Reservation_App_V2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
