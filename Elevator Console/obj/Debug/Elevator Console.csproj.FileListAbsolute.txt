@@ -73,3 +73,6 @@ C:\Users\monkey\Documents\Elevator-Console\Elevator Console\obj\Debug\Elevator C
 C:\Users\kelcey\Source\Repos\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.exe.config
 C:\Users\kelcey\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.exe
 C:\Users\kelcey\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.pdb
+C:\Users\monkey\Pictures\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.exe.config
+C:\Users\monkey\Pictures\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.exe
+C:\Users\monkey\Pictures\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.pdb

@@ -253,12 +253,12 @@
             this.dtpDate.TabIndex = 30;
             this.dtpDate.ValueChanged += new System.EventHandler(this.dateTimePicker4_ValueChanged);
             // 
-            // Reservation_App_V2
+            // Reservation_App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(362, 663);
+            this.ClientSize = new System.Drawing.Size(465, 663);
             this.Controls.Add(this.dtpDate);
             this.Controls.Add(this.dtpTimeOut);
             this.Controls.Add(this.dtpTimeIn);
@@ -275,7 +275,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Reservation_App_V2";
+            this.Name = "Reservation_App";
             this.Text = "Reservation_App_V2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -293,7 +293,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox txtMemberID;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -306,5 +305,6 @@
         private System.Windows.Forms.DateTimePicker dtpTimeIn;
         private System.Windows.Forms.DateTimePicker dtpTimeOut;
         private System.Windows.Forms.DateTimePicker dtpDate;
+        public System.Windows.Forms.TextBox txtMemberID;
     }
 }

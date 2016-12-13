@@ -316,7 +316,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton radRes3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtMemberID;
         private System.Windows.Forms.Button btnLookUpRes;
         private System.Windows.Forms.Button btnExtendRes;
         private System.Windows.Forms.Button btnNewRes;
@@ -325,5 +324,6 @@
         public System.Windows.Forms.DateTimePicker dtpTimeIn;
         public System.Windows.Forms.DateTimePicker dtpDate;
         private System.Windows.Forms.Button btnSubmitNew;
+        public System.Windows.Forms.TextBox txtMemberID;
     }
 }
