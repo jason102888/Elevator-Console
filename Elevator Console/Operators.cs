@@ -60,42 +60,10 @@ namespace ParkALot
             }
             return results;
         }
-        //private void Query(string queryString)
-        //{
-        //    //List<string> result = new List<String>();
-
-        //    using (SqlCommand command = connection.CreateCommand())
-        //    {
-        //        command.CommandText = queryString;
-        //        command.Connection.Open();
-        //        SqlDataReader reader = command.ExecuteReader();
-        //        string rec = "";
-        //        while (reader.Read())
-        //        {
-        //            //IDataRecord record = (IDataRecord)reader;
-        //            // result.Add(String.Format("{0}, {1}", record[0], record[1]));
-        //            rec = reader.GetString(1) + " ";
-        //            rec += reader.GetString(2) + " ";
-        //            rec += reader.GetString(3);
-        //            Console.WriteLine(rec);
-        //        }
-
-        //        // Call Close when done reading.
-        //        reader.Close();                 //ask higgs if neccessary
-        //    }
-
-        //  //  return result;
-        //}
 
         public void GetCustomerData(string memberInfo)
         {
             string queryString = String.Format("SELECT * from Membership WHERE (FirstName = '{0}' OR LastName = '{0}');", memberInfo);
-            //SqlDataReader reader = Query(queryString);         //ask higgs what the frack
-            //while (reader.Read())
-            //{
-            //    int count = 0;
-            //    Console.WriteLine(reader[count]);
-            //    count++;
            
             List<DataRow> results = Query(queryString);
             foreach (DataRow row in results)
@@ -110,11 +78,44 @@ namespace ParkALot
             bool result = DoNonQuery("UPDATE * ParkingSpace SET  = ");
             if (result)
             {
-                MessageBox.Show("It fucking worked");
+                MessageBox.Show("It fracking worked");
             }
             else
             {
-                MessageBox.Show("it didnt fucking work.");
+                MessageBox.Show("It didnt fracking work.");
+            }
+        }
+
+        // Will show all the empty spaces to the operator
+        public void GetEmptySpaces()
+        {
+            string queryString = String.Format("SELECT * from emptySpaces WHERE (empty = 0);");
+            List<DataRow> results = Query(queryString);
+            foreach (DataRow row in results)
+            {
+                Console.WriteLine(row.Field<int>(0).ToString());
+            }
+        }
+
+        // Will show all the reserved spaces to the operator
+        public void GetReservedSpaces()
+        {
+            string queryString = String.Format("SELECT * from reservedSpaces WHERE (reserved = 1);");
+            List<DataRow> results = Query(queryString);
+            foreach (DataRow row in results)
+            {
+                Console.WriteLine(row.Field<int>(0).ToString());
+            }
+        }
+
+        // Will show all the full spaces to the operator
+        public void GetFullSpaces()
+        {
+            string queryString = String.Format("SELECT * from fullSpaces WHERE (full = 1);");
+            List<DataRow> results = Query(queryString);
+            foreach (DataRow row in results)
+            {
+                Console.WriteLine(row.Field<int>(0).ToString());
             }
         }
 
