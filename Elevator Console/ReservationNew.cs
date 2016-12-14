@@ -37,13 +37,24 @@ namespace ParkALot
             {
                 // remember that the DateTimePicker controls return DateTime objects via their Value prooerty.
 
-                updateReservations.CommandText = "insert dbo.Reservations values(" + 
-                    customerID + 
-                    ", NULL,'" + 
-                    theStartTime + "','" + 
-                    theEndTime + 
-                    "', '','" + 
-                    resDate + "');";
+                //updateReservations.CommandText = "insert dbo.Reservations values(" + 
+                //    customerID + 
+                //    ", NULL,'" + 
+                //    theStartTime + "','" + 
+                //    theEndTime + 
+                //    "', '','" + 
+                //    resDate + "');";
+                //Random random = new Random();
+                //int randomNumber = random.Next(0, 1000);
+                updateReservations.CommandText = "insert dbo.Reservations values(" +
+                    customerID +
+                    ", NULL,'" +
+                    theStartTime + "','" +
+                    theEndTime +
+                    "', 65423,'" +
+                    resDate + "'" +
+                    ", 333" + ");";  // Needs to select fist avalable parking spot----------------------------------------------------------------------------------------------------------------------------------
+
                 //updateReservations.CommandText = "update db_owner.Reservation set Date = '+resDate+' where ID = + Reservation_App_V2.textBox3.Value;";
                 //updateReservations.StatementCompleted += updateReservations_StatementCompleted;
                 updateReservations.ExecuteNonQuery();

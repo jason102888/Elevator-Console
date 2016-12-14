@@ -63,17 +63,16 @@ namespace ParkALot
             // Read from server and store info in "info" string
             using (SqlCommand readAllReservationInfo = connection.CreateCommand())
             {
-                readAllReservationInfo.CommandText = "select * from dbo.Reservations where MemID = '+memIDNumber+';";
+                readAllReservationInfo.CommandText = "select * from dbo.Reservations where MemID = '"+memIDNumber+"';";
 
                 using (SqlDataReader reader = readAllReservationInfo.ExecuteReader())
                 {
                     string info = "Reservation Date: ";
                     while (reader.Read())
                     {
-                        info = reader.GetString(6) + "\nTime in: ";
-                        info += reader.GetString(3) + "\nTime out: ";
-                        info += reader.GetString(4);
-                        // Display info
+                        info += "Reservation Date: " + reader.GetDateTime(5).ToString() + "\nTime in: ";
+                        info += reader.GetTimeSpan(2).ToString() + "\nTime out: ";
+                        info += reader.GetTimeSpan(3).ToString() + "\n";
                         MessageBox.Show(info);
                     }
                 }
@@ -111,22 +110,36 @@ namespace ParkALot
             connection.Open();
             //-----------------------------------------------------------------------------------------------------------------------
             // Read from server and store info in "info" and display 
+
             using (SqlCommand readAllReservationInfo = connection.CreateCommand())
             {
-                readAllReservationInfo.CommandText = "select * from dbo.Reservations where MemID = '+memIDNumber+';";
+                int memIDNumber = 0;    // Convert.ToInt32(txtMemberID.Text);
+                int.TryParse(txtMemberID.Text, out memIDNumber);
+                readAllReservationInfo.CommandText = "select * from dbo.Reservations where MemID = '"+memIDNumber+"';";
 
                 using (SqlDataReader reader = readAllReservationInfo.ExecuteReader())
                 {
-                    string info = "Reservation Date: ";
+                    string info = "";
                     while (reader.Read())
                     {
                         //store time out in whenTimeOutString and parse into whenTimeOutFloat
-                        whenTimeOutString = reader.GetString(4);
+                        whenTimeOutString = reader.GetTimeSpan(3).ToString();
                         float.TryParse(whenTimeOutString, out whenTimeOutFloat);
+                        //whenTimeOutFloat = float.Parse(whenTimeOutString);
+                        //if (float.TryParse(whenTimeOutString, out whenTimeOutFloat))
+                        //{
+                        //    MessageBox.Show(whenTimeOutString);
+                        //}
+                        //else
+                        //{
+                        //    MessageBox.Show("failed");
+                        //}
 
-                        info = reader.GetString(6) + ", Time in: ";
-                        info += reader.GetString(3) + ", Time out: ";
-                        info += reader.GetString(4);
+
+                        //MessageBox.Show(whenTimeOutString);
+                        info += "Reservation Date: " +reader.GetDateTime(5).ToString() + "\nTime in: ";
+                        info += reader.GetTimeSpan(2).ToString() + "\nTime out: ";
+                        info += reader.GetTimeSpan(3).ToString() + "\n";
                         MessageBox.Show(info);
                     }
                 }
@@ -138,6 +151,7 @@ namespace ParkALot
             float currentTime = 0;
             float.TryParse(DateTime.Now.ToLongTimeString(), out currentTime);
             // Only let the user extend their reservation if it is more than 30 minutes away
+            //MessageBox.Show(whenTimeOutFloat.ToString());
             if (whenTimeOutFloat - 30f > currentTime)
             {
                 // Make all relevant gui parts visible
@@ -160,15 +174,32 @@ namespace ParkALot
                     string resDate = dtpDate.Value.ToString();
                     string theStartTime = dtpTimeIn.Value.ToString();
                     string theEndTime = dtpTimeOut.Value.ToString();
+                    int theSpotID = 0;
+                    int theReservationID = 0;
 
-
+                    //updateReservations.CommandText = "insert dbo.Reservations values(" +
+                    //    customerID +
+                    //    ", NULL,'" +
+                    //    theStartTime + "','" +
+                    //    theEndTime +
+                    //    "', '','" +
+                    //    resDate + "');";
+                    //updateReservations.CommandText = "insert dbo.Reservations values(" +
+                    //                    customerID +
+                    //                    ", NULL,'" +
+                    //                    theStartTime + "','" +
+                    //                    theEndTime +
+                    //                    "', 92343,'" +
+                    //                    resDate + "'" +
+                    //                    ", 334" + ");";
                     updateReservations.CommandText = "insert dbo.Reservations values(" +
-                        customerID +
-                        ", NULL,'" +
-                        theStartTime + "','" +
-                        theEndTime +
-                        "', '','" +
-                        resDate + "');";
+                    customerID +
+                    ", NULL,'" +
+                    theStartTime + "','" +
+                    theEndTime +
+                    theSpotID +
+                    resDate + "'" +
+                    theReservationID + ");";
 
                     updateReservations.ExecuteNonQuery();
                 }

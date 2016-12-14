@@ -27,7 +27,7 @@ namespace ParkALot
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Reservation_App res = new Reservation_App();
+            Reservation_App_V2 res = new Reservation_App_V2();
             res.Show();
         }
 
@@ -37,7 +37,7 @@ namespace ParkALot
         }
 
         // The following code was written by Cameron Stover and Ryan Robison
-       
+
         private void btnLPlateTrue_Click_1(object sender, EventArgs e)
         {
             SqlConnection connection = new SqlConnection();
@@ -110,7 +110,7 @@ namespace ParkALot
             }
         }
 
-    private void button5_Click_1(object sender, EventArgs e)
+        private void button5_Click_1(object sender, EventArgs e)
         {
             // If a membershipID is given query the database for spaces that do not have a reservation
             // If an empty spot is found return the spotID and take them to the appropriate floor
@@ -142,6 +142,42 @@ namespace ParkALot
             {
                 updateAppointment.CommandText = "update dbo.appointment set appointment = 'true', spotID = spot where membershipID = memID;";
                 updateAppointment.ExecuteNonQuery();
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Registration ress = new Registration();
+            ress.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            SqlConnection connection = new SqlConnection();
+            //Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password = myPassword;
+            connection.ConnectionString = "Server=cis1.actx.edu;Database=Project1;User Id=db1;Password = db10;";
+            connection.Open();
+            using (SqlCommand updateReservations = connection.CreateCommand())
+            {
+
+                // remember that the DateTimePicker controls return DateTime objects via their Value prooerty.
+
+                int customerID = 12312312;
+                string resDate = "10/21/16";
+                string theStartTime = "11:00";
+                string theEndTime = "12:00";
+
+
+                updateReservations.CommandText = "insert dbo.Reservations values(" +
+                    customerID +
+                    ", NULL,'" +
+                    theStartTime + "','" +
+                    theEndTime +
+                    "', 65423,'" +
+                    resDate + "'" + 
+                    ", 334" + ");";
+
+                updateReservations.ExecuteNonQuery();
             }
         }
     }

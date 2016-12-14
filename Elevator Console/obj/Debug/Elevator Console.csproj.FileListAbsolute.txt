@@ -59,7 +59,6 @@ C:\Users\monkey\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\ParkALo
 C:\Users\monkey\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Reservation_App.resources
 C:\Users\monkey\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Walk_In_Digital_Display.resources
 C:\Users\monkey\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.csproj.GenerateResource.Cache
-C:\Users\monkey\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Reservatuin_App_V2.resources
 C:\Users\monkey\Source\Repos\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Reservation_App_V2.resources
 F:\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.exe.config
 F:\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.exe
@@ -100,3 +99,5 @@ F:\School\5th Semester\Advanced Structured Languages\Class Project\Elevator-Cons
 F:\School\5th Semester\Advanced Structured Languages\Class Project\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Reservation_App_V2.resources
 F:\School\5th Semester\Advanced Structured Languages\Class Project\Elevator-Console\Elevator Console\obj\Debug\ParkALot.Walk_In_Digital_Display.resources
 F:\School\5th Semester\Advanced Structured Languages\Class Project\Elevator-Console\Elevator Console\obj\Debug\Elevator Console.csproj.GenerateResource.Cache
+C:\Users\monkey\Source\Repos\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.exe
+C:\Users\monkey\Source\Repos\Elevator-Console\Elevator Console\bin\Debug\Elevator Console.pdb
