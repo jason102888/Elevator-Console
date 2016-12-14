@@ -9,21 +9,21 @@ namespace ParkALot
 {
     class ReservationNew
     {
+        // Connect to sql server
         SqlConnection connection = new SqlConnection();
         //Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password = myPassword;
         public ReservationNew()
         {
+            // Sign in
             connection.ConnectionString = "Server=cis1.actx.edu;Database=Project1;User Id=db1;Password = db10;";
             connection.Open();
-            Console.WriteLine(connection.ServerVersion);
-            Console.ReadKey();
         }
             
         //public string resDate = Reservation_App_V2.dtpTimeIn.Value.Date;
         //public string theStartTime = Reservation_App_V2.dateTimePicker1.Value.Time;
         //public string theEndTime = Reservation_App.dateTimePicker2.Value.Time;
 
-
+        // Make method for updating reservation info
         public void UpdateReservation(int customerID, string resDate, string theStartTime, string theEndTime)
         { 
         using (SqlCommand updateReservations = connection.CreateCommand())
