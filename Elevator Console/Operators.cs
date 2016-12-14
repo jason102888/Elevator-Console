@@ -89,7 +89,7 @@ namespace ParkALot
         // Will show all the empty spaces to the operator
         public void GetEmptySpaces()
         {
-            string queryString = String.Format("SELECT * from emptySpaces WHERE (empty = 0);");
+            string queryString = String.Format("SELECT * from ParkingSpace WHERE (empty = 0);");
             List<DataRow> results = Query(queryString);
             foreach (DataRow row in results)
             {
@@ -100,7 +100,7 @@ namespace ParkALot
         // Will show all the reserved spaces to the operator
         public void GetReservedSpaces()
         {
-            string queryString = String.Format("SELECT * from reservedSpaces WHERE (reserved = 1);");
+            string queryString = String.Format("SELECT * from ParkingSpace WHERE (reserved = 1);");
             List<DataRow> results = Query(queryString);
             foreach (DataRow row in results)
             {
@@ -108,10 +108,10 @@ namespace ParkALot
             }
         }
 
-        // Will show all the full spaces to the operator
+        // Will show all the spaces that are filled to the operator
         public void GetFullSpaces()
         {
-            string queryString = String.Format("SELECT * from fullSpaces WHERE (full = 1);");
+            string queryString = String.Format("SELECT * from ParkingSpace WHERE (full = 1);");
             List<DataRow> results = Query(queryString);
             foreach (DataRow row in results)
             {
