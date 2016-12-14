@@ -51,5 +51,10 @@ namespace ParkALot
         {
             op.SetPrice(textBox1.Text);
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
