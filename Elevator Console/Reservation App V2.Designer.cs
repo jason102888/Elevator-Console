@@ -197,7 +197,6 @@
             this.txtMemberID.Name = "txtMemberID";
             this.txtMemberID.Size = new System.Drawing.Size(100, 20);
             this.txtMemberID.TabIndex = 36;
-            this.txtMemberID.Text = "0";
             this.txtMemberID.TextChanged += new System.EventHandler(this.txtMemberID_TextChanged);
             // 
             // btnLookUpRes
