@@ -75,7 +75,7 @@ namespace ParkALot
 
         public void SetPrice(string newPrice)
         {
-            bool result = DoNonQuery("UPDATE * ParkingSpace SET  = ");
+            bool result = DoNonQuery("UPDATE ParkingSpace SET Price = " + newPrice);
             if (result)
             {
                 MessageBox.Show("It fracking worked");
