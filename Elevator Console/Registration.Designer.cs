@@ -91,6 +91,7 @@
             // 
             // nameBox
             // 
+            this.nameBox.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.nameBox.Location = new System.Drawing.Point(144, 15);
             this.nameBox.Name = "nameBox";
             this.nameBox.Size = new System.Drawing.Size(110, 20);
@@ -99,6 +100,7 @@
             // 
             // plateBox
             // 
+            this.plateBox.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.plateBox.Location = new System.Drawing.Point(144, 82);
             this.plateBox.Name = "plateBox";
             this.plateBox.Size = new System.Drawing.Size(110, 20);
@@ -107,6 +109,7 @@
             // 
             // emailBox
             // 
+            this.emailBox.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.emailBox.Location = new System.Drawing.Point(144, 117);
             this.emailBox.Name = "emailBox";
             this.emailBox.Size = new System.Drawing.Size(110, 20);
@@ -115,6 +118,7 @@
             // 
             // cardBox
             // 
+            this.cardBox.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cardBox.Location = new System.Drawing.Point(144, 187);
             this.cardBox.Name = "cardBox";
             this.cardBox.Size = new System.Drawing.Size(110, 20);
@@ -150,6 +154,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(262, 187);
             this.comboBox1.Name = "comboBox1";
@@ -158,6 +163,7 @@
             // 
             // lastNameBox
             // 
+            this.lastNameBox.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.lastNameBox.Location = new System.Drawing.Point(144, 49);
             this.lastNameBox.Name = "lastNameBox";
             this.lastNameBox.Size = new System.Drawing.Size(110, 20);
@@ -188,6 +194,7 @@
             // 
             // phoneNumBox
             // 
+            this.phoneNumBox.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.phoneNumBox.Location = new System.Drawing.Point(144, 152);
             this.phoneNumBox.Name = "phoneNumBox";
             this.phoneNumBox.Size = new System.Drawing.Size(110, 20);
