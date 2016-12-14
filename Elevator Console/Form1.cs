@@ -36,7 +36,9 @@ namespace ParkALot
 
         }
 
-        private void btnLPlateTrue_Click(object sender, EventArgs e)
+        // The following code was written by Cameron Stover and Ryan Robison
+       
+        private void btnLPlateTrue_Click_1(object sender, EventArgs e)
         {
             SqlConnection connection = new SqlConnection();
             // Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password = myPassword;
@@ -61,9 +63,7 @@ namespace ParkALot
             }
         }
 
-        // The following code was written by Cameron Stover and Ryan Robison
-
-        private void btnLPlateFalse_Click(object sender, EventArgs e)
+        private void btnLPlateFalse_Click_1(object sender, EventArgs e)
         {
             // If no appointment is associated with the scanned license plate tell the member they
             // do not have a reservation ask them to enter a duration to make a reservation or
@@ -110,9 +110,8 @@ namespace ParkALot
             }
         }
 
-        private void button5_Click(object sender, EventArgs e)
+    private void button5_Click_1(object sender, EventArgs e)
         {
-
             // If a membershipID is given query the database for spaces that do not have a reservation
             // If an empty spot is found return the spotID and take them to the appropriate floor
             // Then update appointments makeing appoinment = true spotID - the spot they were assigned
