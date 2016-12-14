@@ -1,4 +1,9 @@
-﻿using System;
+﻿// Trevor Vieth & Henrico Cillie
+// COSC 2330 001
+// 12/12/2016
+// Reservation Class for Class Project
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +12,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
+// Add sql using statments
 using System.Data.SqlClient;
 using System.Data.Sql;
 namespace ParkALot
