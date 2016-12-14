@@ -48,6 +48,7 @@
             this.btnLPlateTrue = new System.Windows.Forms.Button();
             this.btnLPlateFalse = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.lblOutput = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -270,12 +271,22 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
+            // lblOutput
+            // 
+            this.lblOutput.AutoSize = true;
+            this.lblOutput.Location = new System.Drawing.Point(293, 78);
+            this.lblOutput.Name = "lblOutput";
+            this.lblOutput.Size = new System.Drawing.Size(35, 13);
+            this.lblOutput.TabIndex = 20;
+            this.lblOutput.Text = "label3";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(477, 356);
+            this.Controls.Add(this.lblOutput);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.btnLPlateFalse);
             this.Controls.Add(this.btnLPlateTrue);
@@ -324,6 +335,7 @@
         private System.Windows.Forms.Button btnLPlateTrue;
         private System.Windows.Forms.Button btnLPlateFalse;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label lblOutput;
     }
 }
 
