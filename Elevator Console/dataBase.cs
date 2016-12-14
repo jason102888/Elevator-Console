@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Tiler 
+// Query for Database
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -109,7 +111,7 @@ namespace ParkALot
                         rec = "Spot ID: ";
                         rec += reader.GetInt32(0) + "\n";
                         rec += "Floor: " + reader.GetInt32(3) + "\n";
-                        rec += "Price: " + reader.GetInt32(4);
+                        rec += "Price: $" + reader.GetInt32(4);
                         Console.WriteLine(rec);
                         Console.ReadKey();
                     }
