@@ -27,7 +27,7 @@ namespace ParkALot
 
         private void button2_Click(object sender, EventArgs e)
         {
-            op.GetCustomerData(textBox2.Text);
+            op.GetCustomerData();
             // Not sure what this is?
         }
 
@@ -49,7 +49,7 @@ namespace ParkALot
 
         private void button1_Click(object sender, EventArgs e)
         {
-            op.SetPrice(textBox1.Text);
+            op.SetPrice();
         }
     }
 }
