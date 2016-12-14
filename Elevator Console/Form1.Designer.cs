@@ -249,6 +249,7 @@
             this.btnLPlateTrue.TabIndex = 17;
             this.btnLPlateTrue.Text = "Known Plate";
             this.btnLPlateTrue.UseVisualStyleBackColor = true;
+            this.btnLPlateTrue.Click += new System.EventHandler(this.btnLPlateTrue_Click_1);
             // 
             // btnLPlateFalse
             // 
@@ -258,6 +259,7 @@
             this.btnLPlateFalse.TabIndex = 18;
             this.btnLPlateFalse.Text = "Unknown Plate";
             this.btnLPlateFalse.UseVisualStyleBackColor = true;
+            this.btnLPlateFalse.Click += new System.EventHandler(this.btnLPlateFalse_Click_1);
             // 
             // button5
             // 
@@ -267,6 +269,7 @@
             this.button5.TabIndex = 19;
             this.button5.Text = "Membership Number";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
             // lblOutput
             // 
